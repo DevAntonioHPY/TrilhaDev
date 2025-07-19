@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    background-color: #000000;
+}
+
+.parte1{
+    text-align: center;
+    padding: 70px;
+    
+    
+}
+
+.logo{
+    width: 477px;
+    height: 137px;
+}
+
+.parte1 h1{
+    color: white;
+    font-size: 50px;
+}
+
+.verde{
+    color:#c9f31d ;
+}
+
+.part1 p{
+    color: white;
+    font-size: 32px;
+    padding-bottom: 40px;
+    
+}
+
+.parte1 a{
+    text-decoration: none;
+    background-color:#c9f31d ;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+.parte2{
+    background-color: #c9f31d;
+    padding-bottom: 150px;
+
+}
+
+.parte2 h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.blocos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+    
+
+}
+
+.icone{
+    height: 107px;
+    width: 106px;
+}
+
+.bloco{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.bloco p{
+    font-size: 24px;
+}
+
+.trilhadev{
+    float: left;
+    width: 700px;
+    padding-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.parte3{
+    padding-bottom: 150px;
+}
+
+.parte3 h1{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.parte3 p{
+    color: white;
+    font-size: 38px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 50px;
+    padding-bottom: 30px;
+}
+
+.parte3 a{
+    text-decoration: none;
+    background-color:#c9f31d ;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.parte4{
+    background-color: #c9f31d;
+    padding: 100px;
+    display: grid;
+    justify-items: center;
+    
+}
+
+.parte4 h1{
+    color: white;
+    background-color: #000000;
+    margin: 0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.parte4 p{
+    background-color: white;
+    margin: 0;
+    line-height: 2;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+    
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+footer h1{
+   color: white;
+   font-size: 30px;
+}
+
+footer span{
+    color: white;
+    font-size: 30px;
+}
+
+
